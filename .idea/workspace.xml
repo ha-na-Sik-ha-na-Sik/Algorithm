@@ -53,7 +53,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Application.Problem02">
+  <component name="RunManager" selected="Application.Problem03">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Algorithm.main" />
@@ -93,8 +93,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dongmoo.section01.Problem03" />
+      <module name="Algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.dongmoo.section01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem03" />
         <item itemvalue="Application.Problem02" />
         <item itemvalue="Application.Problem01" />
         <item itemvalue="Application.Main" />
@@ -110,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676525771610</updated>
       <workItem from="1676525772807" duration="257000" />
-      <workItem from="1676534092046" duration="4986000" />
+      <workItem from="1676534092046" duration="6002000" />
     </task>
     <servers />
   </component>
