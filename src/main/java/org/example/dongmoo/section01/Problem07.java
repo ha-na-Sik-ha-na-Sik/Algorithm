@@ -1,20 +1,28 @@
 package org.example.dongmoo.section01;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Problem07 {
     public static String solution(String str) {
-        String answer = "";
-        for (int i = 0; i < str.length(); i++) {
-            if (i == str.indexOf(str.charAt(i))) {
-                answer += str.charAt(i);
+        String answer = "YES";
+        str = str.toLowerCase();
+        int length = str.length();
+
+        for (int i = 0; i < length / 2; i++) {
+            if (str.charAt(i) != str.charAt(length - i - 1)) {
+                return "NO";
             }
         }
         return answer;
+
+
     }
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println(solution(br.readLine()));
+        String answer = solution(br.readLine());
+        System.out.println(answer);
     }
 }
