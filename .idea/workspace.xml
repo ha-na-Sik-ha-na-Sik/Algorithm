@@ -13,6 +13,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dongmoo/section01/Problem08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dongmoo/section01/Problem08.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +146,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676525771610</updated>
       <workItem from="1676525772807" duration="257000" />
-      <workItem from="1676534092046" duration="10858000" />
+      <workItem from="1676534092046" duration="11506000" />
     </task>
     <servers />
   </component>
