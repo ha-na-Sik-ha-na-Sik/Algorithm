@@ -4,22 +4,22 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-/*
+/**
  * 알게된 점
- * Character.isLowerCase(c)
- * Character.toUppserCase(c)
+ * str.indexOf(str.charAt(i)) == i 일 때 최초 등장하는 character
  */
-public class Problem02 {
+public class Problem06 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         char[] str = br.readLine().toCharArray();
-        for (int i = 0; i < str.length; i++) {
-            if ('A' <= str[i] && str[i] <= 'Z') {
-                str[i] += 32;
-            } else {
-                str[i] -= 32;
+        boolean[] alphabet = new boolean[26];
+        StringBuilder answer = new StringBuilder();
+        for (char c : str) {
+            if (!alphabet[c - 'a']) {
+                alphabet[c - 'a'] = true;
+                answer.append(c);
             }
         }
-        System.out.println(str);
+        System.out.println(answer);
     }
 }
