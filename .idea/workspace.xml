@@ -68,20 +68,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Application.Problem05">
-    <configuration name="Problem01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dongmoo.section02.Problem01" />
-      <module name="Algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.dongmoo.section02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Problem06">
     <configuration name="Problem02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.dongmoo.section02.Problem02" />
       <module name="Algorithm.main" />
@@ -134,13 +121,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dongmoo.section02.Problem06" />
+      <module name="Algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.dongmoo.section02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem06" />
         <item itemvalue="Application.Problem05" />
         <item itemvalue="Application.Problem04" />
         <item itemvalue="Application.Problem03" />
         <item itemvalue="Application.Problem02" />
-        <item itemvalue="Application.Problem01" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +153,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676525771610</updated>
       <workItem from="1676525772807" duration="257000" />
-      <workItem from="1676534092046" duration="23388000" />
+      <workItem from="1676534092046" duration="25122000" />
     </task>
     <servers />
   </component>
